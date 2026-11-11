@@ -1,0 +1,17 @@
+{
+  "name": "3d-task-tracker",
+  "module": "src/server.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "hono": "^4.12.9",
+    "pocketbase": "^0.26.8",
+    "three": "^0.183.2"
+  }
+}
